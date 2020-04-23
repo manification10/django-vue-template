@@ -24,7 +24,8 @@ npm run dev
 * On another terminal launch the Django application
 
 ```bash
-python manage.py runserver
+pip3 install django==2.0 
+python3 manage.py runserver
 ```
 
 And point your browser to [http://localhost:8000](), but test that you can also access the pure Django world, for example by going to the admin panel [http://localhost:8000/admin]()
